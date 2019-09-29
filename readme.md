@@ -16,6 +16,14 @@ MYSQL 单应用非DOCKER快速搭建
 #初始化data
 ./deploy.sh db
 ```
+开启
+---
+```
+./cm.sh start
+##关闭服务
+./cm.sh stop
+```
+
 初始化账号
 --
 ```
